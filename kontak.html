@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <style>
+    * {
+      background-color: beige;
+    }
+
+    .nav-bar {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+    }
+
+    .href-bar {
+      border: 1px solid black;
+      list-style-type: none;
+      padding: 10px;
+      margin: 5px;
+      color: black;
+      text-decoration: none;
+    }
+
+    .href-bar:hover {
+      background-color: brown;
+    }
+
+    .submit-kirim:hover {
+      background-color: burlywood;
+    }
+  </style>
+</head>
+
+<!--Navigation Bar-->
+<body>
+  <nav class="nav-bar">
+    <a href="halamanHome.html" class="href-bar">Home</a>
+    <a href="downloadCV.html" class="href-bar">Download CV</a>
+    <a href="kontak.html" class="href-bar">Contact</a>
+    <a href="tentang.html" class="href-bar">About Me</a>
+  </nav>
+  <!--Navigation Bar End-->
+
+  <hr />
+
+  <div>
+    <h1>Kontak Saya</h1>
+    <form>
+      <label for="email">Email</label><br />
+      <input type="email" name="email" placeholder="alamat email" />
+
+      <br />
+      <label for="message">Pesan</label><br />
+      <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
+      <br />
+      <br />
+      <input type="submit" value="Kirim" class="submit-kirim"/>
+    </form>
+  </div>
+
+  <!--Copyright-->
+  <hr>
+  <footer style="text-align: center;">
+    <p>Copyright &copy; Prasetyo Budi Utomo.</p>
+
+  </footer>
+  <!--Copyright End-->
+
+</body>
+
+</html>
